@@ -1,5 +1,5 @@
 # SD_Faza3
-Polybius Square Cipher and Myszkowski Transposition Project
+Pretty Good Privacy (PGP) Project
 
 Professor [Arbena Musa](https://github.com/ArbenaMusa)
 
