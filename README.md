@@ -76,7 +76,7 @@ Applications of PGP:
 
      Results of ENCRYPT:
 
-   When u run the Client:
+   When you run the Client:
 
    ![image](https://github.com/LeutrimMorina13/Data_Security_3/assets/116465243/356cab9f-3962-4cbb-a236-51c772380acf)
    
@@ -101,13 +101,11 @@ Applications of PGP:
    
 
 
-   
-
-
 
 
  # Confidential
 This project is developed from the authors below with full rights.
+
 
 # Authors
 
@@ -117,9 +115,11 @@ This project is developed from the authors below with full rights.
 [Leonita Sinani](https://github.com/leonitaas)
 
 
+[Leutrim Morina](https://github.com/LeutrimMorina13)
+
+
 [Linda Hasanaj](https://github.com/Linda-Hasanaj)
 
 
-[Leutrim Morina](https://github.com/LeutrimMorina13)
 
  
