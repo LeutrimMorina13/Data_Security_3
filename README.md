@@ -74,6 +74,37 @@ Applications of PGP:
 6. Receive the Output:
    - The processed message (encrypted, decrypted, signed, or verified) is sent back from the server to the client, completing the operation.
 
+     Results of ENCRYPT:
+
+   When u run the Client:
+
+   ![image](https://github.com/LeutrimMorina13/Data_Security_3/assets/116465243/356cab9f-3962-4cbb-a236-51c772380acf)
+   
+
+   ![image](https://github.com/LeutrimMorina13/Data_Security_3/assets/116465243/bfdaddf4-0b20-435c-b894-c7e65fc8ff77)
+
+   Server:
+   
+   ![image](https://github.com/LeutrimMorina13/Data_Security_3/assets/116465243/b9e17ddf-8218-4e71-b1bb-1f1b5f9cb0ec)
+
+   ![image](https://github.com/LeutrimMorina13/Data_Security_3/assets/116465243/27f57ec1-b582-4eab-b8a9-dc9f2fb4164e)
+
+   Client DECRYPT:
+ 
+   ![image](https://github.com/LeutrimMorina13/Data_Security_3/assets/116465243/08593e77-9cdc-4bba-bf0b-efadc0f4d680)
+
+   Server:
+   
+   ![image](https://github.com/LeutrimMorina13/Data_Security_3/assets/116465243/59764783-0100-42ca-b4d3-8337a52d4181)
+
+
+   
+
+
+   
+
+
+
 
  # Confidential
 This project is developed from the authors below with full rights.
