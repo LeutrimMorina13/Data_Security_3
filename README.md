@@ -6,7 +6,7 @@ Professor [Arbena Musa](https://github.com/ArbenaMusa)
 # Language
 Project PGP is developed in Java language.
 
-# Description of algorithms.
+# Description of algorithm.
 
 Pretty Good Privacy (PGP) is a widely-used encryption program that provides cryptographic privacy and authentication for data communication. Developed by Phil Zimmermann in 1991, PGP uses a combination of symmetric-key cryptography and public-key cryptography to secure emails, files, and other forms of data.
 
