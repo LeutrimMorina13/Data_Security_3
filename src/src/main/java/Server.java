@@ -126,6 +126,30 @@ class ServerThread extends Thread {
             }
         }
     }
+    private byte[] encrypt(PublicKey publicKey, String message) throws Exception {
+        Cipher cipher = Cipher.getInstance("ECIES", "BC");
+        cipher.init(Cipher.ENCRYPT_MODE, publicKey);
+        return cipher.doFinal(message.getBytes());
+    }
 
+    private byte[] decrypt(PrivateKey privateKey, byte[] encryptedMessage) throws Exception {
+        Cipher cipher = Cipher.getInstance("ECIES", "BC");
+        cipher.init(Cipher.DECRYPT_MODE, privateKey);
+        return cipher.doFinal(encryptedMessage);
+    }
+
+    private byte[] sign(PrivateKey privateKey, String message) throws Exception {
+        Signature signature = Signature.getInstance("SHA256withECDSA", "BC");
+        signature.initSign(privateKey);
+        signature.update(message.getBytes());
+        return signature.sign();
+    }
+
+    private boolean verify(PublicKey publicKey, String message, byte[] signatureBytes) throws Exception {
+        Signature signature = Signature.getInstance("SHA256withECDSA", "BC");
+        signature.initVerify(publicKey);
+        signature.update(message.getBytes());
+        return signature.verify(signatureBytes);
+    }
 
 }
