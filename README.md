@@ -1,12 +1,12 @@
-# SD_Faza3
-Pretty Good Privacy (PGP) Project
+# Data Security - Phase 3
+PGP (Pretty Good Privacy) Simulation for Email Encryption Console Application
 
 Professor [Arbena Musa](https://github.com/ArbenaMusa)
 
-# Language
+## Language
 Project PGP is developed in Java language.
 
-# Description of algorithm.
+## Description of PGP
 
 Pretty Good Privacy (PGP) is a widely-used encryption program that provides cryptographic privacy and authentication for data communication. Developed by Phil Zimmermann in 1991, PGP uses a combination of symmetric-key cryptography and public-key cryptography to secure emails, files, and other forms of data.
 
@@ -24,10 +24,10 @@ Pretty Good Privacy (PGP) is a widely-used encryption program that provides cryp
 How PGP Works:
 
 1. Encryption:
-   - The sender generates a session key, a one-time-use symmetric key, to encrypt the plaintext message.
+   - The sender generates a session key, a one-time-use key, to encrypt the plaintext message.
    - The session key is then encrypted with the recipient's public key.
    - Both the encrypted message and the encrypted session key are sent to the recipient.
-   - 
+    
 2. Decryption:
    - The recipient uses their private key to decrypt the session key.
    - The decrypted session key is then used to decrypt the message.
@@ -49,7 +49,7 @@ Applications of PGP:
 - Authentication: PGP digital signatures can be used to authenticate software distributions and documents.
   
 
- # How to execute the program.
+ ## How to execute the program
  
 1. Start the Server:
    - Begin by launching the server application. This server will handle all encryption, decryption, signing, and verification tasks based on client requests.
@@ -76,7 +76,7 @@ Applications of PGP:
 
      Results of ENCRYPT:
 
-   When you run the Client:
+ ## Examples of when you run the program:
 
    ![image](https://github.com/LeutrimMorina13/Data_Security_3/assets/116465243/356cab9f-3962-4cbb-a236-51c772380acf)
    
@@ -103,11 +103,11 @@ Applications of PGP:
 
 
 
- # Confidential
+ ## Confidential
 This project is developed from the authors below with full rights.
 
 
-# Authors
+## Authors
 
 [Elda Qollaku](https://github.com/eldaaqollaku)
 
